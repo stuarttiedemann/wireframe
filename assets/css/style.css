@@ -1,0 +1,222 @@
+/* line 3, ../compass/sass/style.scss */
+body {
+  background: #ccc;
+}
+
+/* line 6, ../compass/sass/style.scss */
+.header-body {
+  width: 90%;
+  height: 600px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  background: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 16, ../compass/sass/style.scss */
+.logo-holder {
+  width: 50%;
+  height: 550px;
+  margin: auto;
+  overflow: hidden;
+}
+/* line 23, ../compass/sass/style.scss */
+.logo-holder img {
+  width: 100%;
+  margin-bottom: 25%;
+  padding-bottom: 20%;
+}
+
+/* line 29, ../compass/sass/style.scss */
+.social-holder {
+  position: absolute;
+  top: 30%;
+  left: 94%;
+  width: 50px;
+}
+/* line 34, ../compass/sass/style.scss */
+.social-holder img {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+/* line 40, ../compass/sass/style.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+}
+
+/* line 45, ../compass/sass/style.scss */
+.navbar-header a img {
+  width: 100px;
+  height: 50px;
+  background: #ccc;
+  margin-left: 10%;
+  margin-top: 5px;
+}
+
+/* line 52, ../compass/sass/style.scss */
+#navigationbar ul.nav.navbar-nav li a {
+  background: #ccc;
+  margin-top: 20px;
+  color: black;
+}
+
+/* line 57, ../compass/sass/style.scss */
+#navigationbar ul.nav.navbar-nav li a:hover {
+  color: blue;
+}
+
+/* line 60, ../compass/sass/style.scss */
+button.navbar-toggle {
+  color: black;
+}
+
+/* line 63, ../compass/sass/style.scss */
+button.navbar-toggle.collapsed {
+  color: black;
+}
+
+/* line 66, ../compass/sass/style.scss */
+.navbar-default {
+  background: white;
+  border: none;
+}
+
+/* line 70, ../compass/sass/style.scss */
+#services {
+  background: #e6e6e6;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+}
+/* line 76, ../compass/sass/style.scss */
+#services .image-holder {
+  margin: auto;
+  margin-top: 50px;
+  height: 125px;
+  width: 125px;
+  background: #ccc;
+}
+/* line 82, ../compass/sass/style.scss */
+#services .image-holder img {
+  width: 100%;
+  padding-top: 20px;
+}
+/* line 87, ../compass/sass/style.scss */
+#services .info {
+  padding: 20px;
+}
+/* line 89, ../compass/sass/style.scss */
+#services .info p {
+  margin-top: 20px;
+}
+
+/* line 94, ../compass/sass/style.scss */
+.flexslider {
+  margin-top: 20%;
+}
+
+/* line 98, ../compass/sass/style.scss */
+#about {
+  background: white;
+  width: 90%;
+  margin: auto;
+}
+
+/* line 103, ../compass/sass/style.scss */
+.about-us {
+  padding: 12% 2% 2% 2%;
+}
+/* line 107, ../compass/sass/style.scss */
+.about-us p {
+  padding: 2%;
+}
+
+/* line 112, ../compass/sass/style.scss */
+#contact {
+  background: #e6e6e6;
+  width: 90%;
+  height: 450px;
+  margin: auto;
+}
+/* line 117, ../compass/sass/style.scss */
+#contact h2 {
+  padding-left: 10%;
+  padding-top: 26%;
+  padding-bottom: 10%;
+}
+/* line 122, ../compass/sass/style.scss */
+#contact ul li {
+  font-size: 1.1em;
+  list-style-type: none;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+/* line 129, ../compass/sass/style.scss */
+.form-holder {
+  width: 30%;
+  margin: auto;
+}
+
+/* line 133, ../compass/sass/style.scss */
+#questions {
+  background: white;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+}
+/* line 138, ../compass/sass/style.scss */
+#questions h2 {
+  margin-top: 0px;
+  padding-top: 50px;
+}
+/* line 142, ../compass/sass/style.scss */
+#questions input {
+  background: #e6e6e6;
+}
+/* line 145, ../compass/sass/style.scss */
+#questions textarea {
+  background: #e6e6e6;
+}
+/* line 148, ../compass/sass/style.scss */
+#questions button {
+  float: right;
+}
+
+/* line 152, ../compass/sass/style.scss */
+footer {
+  background: black;
+  width: 90%;
+  height: 250px;
+  margin: auto;
+}
+/* line 157, ../compass/sass/style.scss */
+footer h4 {
+  padding-top: 40%;
+  color: #e6e6e6;
+}
+/* line 161, ../compass/sass/style.scss */
+footer p {
+  color: #e6e6e6;
+  padding-top: 40%;
+}
+/* line 166, ../compass/sass/style.scss */
+footer .footer-social-holder {
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 21%;
+}
+/* line 170, ../compass/sass/style.scss */
+footer .footer-social-holder img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 5%;
+}

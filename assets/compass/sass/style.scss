@@ -1,0 +1,178 @@
+@import 'compass/css3';
+
+body{
+	background: #ccc;
+}
+.header-body{
+	width: 90%;
+	height:600px;
+	position: relative;
+	margin: auto;
+	margin-top:50px;
+	background: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.logo-holder{
+	width:50%;
+	height:550px;
+	margin: auto;
+	overflow: hidden;
+	// padding-top: 8%;
+	
+		img{
+			width: 100%;
+			margin-bottom:25%;
+			padding-bottom: 20%;
+		}
+}
+.social-holder{
+	position: absolute;
+	top:30%;
+	left:94%;
+	width:50px;
+		img{
+			width: 30px;
+			height: 30px;
+			float: left;
+		}	
+}
+.navbar{
+	width:90%;
+	margin: auto;
+}
+
+.navbar-header a img{
+	width:100px;
+	height: 50px; 
+	background: #ccc;
+	margin-left:10%;
+	margin-top:5px;
+}
+#navigationbar ul.nav.navbar-nav li a{
+	background: #ccc;
+	margin-top: 20px;
+	color:black;
+}
+#navigationbar ul.nav.navbar-nav li a:hover{
+	color: blue;
+}
+button.navbar-toggle{
+	color: black;
+}
+button.navbar-toggle.collapsed{
+	color: black;
+}
+.navbar-default{
+	background: white;
+	border:none;
+}
+#services{
+	background: #e6e6e6;
+	width: 90%;
+	height:500px;
+	margin:auto;
+	text-align: center;
+	.image-holder{
+		margin:auto;
+		margin-top:50px;
+		height: 125px;
+		width: 125px;
+		background: #ccc;
+			img{
+			width: 100%;
+			padding-top:20px;
+		}
+	}	
+	.info{
+		padding:20px;
+			p{
+				margin-top: 20px;
+			}
+	}
+}
+.flexslider{
+	margin-top:20%;
+	// margin-left:20%;
+}
+#about{
+	background: white;
+	width: 90%;
+	margin:auto;
+}
+.about-us{
+	
+	padding:12% 2% 2% 2%;
+
+	p{
+		padding:2%;
+		
+	}
+}
+#contact{
+	background: #e6e6e6;
+	width: 90%;
+	height:450px;
+	margin:auto;
+	h2{
+		padding-left: 10%;
+		padding-top:26%;
+		padding-bottom: 10%;
+	}
+	ul li{
+		font-size:1.1em;
+		list-style-type: none;
+		margin-bottom:25px;
+		margin-left:20px;
+	}
+}
+.form-holder{
+	width:30%;
+	margin:auto;
+}
+#questions{
+	background: white;
+	width: 90%;
+	height:500px;
+	margin:auto;
+	h2{
+		margin-top:0px;
+		padding-top:50px;
+	}
+	input{
+		background: #e6e6e6;
+	}
+	textarea{
+		background: #e6e6e6;
+	}
+	button{
+		float: right;
+	}
+}
+footer{
+	background: black;
+	width:90%;
+	height:250px;
+	margin:auto;
+	h4{
+		padding-top:40%;
+		color:#e6e6e6;
+	}
+	p{
+		color:#e6e6e6;
+		padding-top:40%;
+
+	}
+	.footer-social-holder{
+		text-align: center;
+		margin-top:4%;
+		margin-left:21%;
+		img{
+				width: 30px;
+				height: 30px;
+				float: left;
+				margin-right:15px;
+				margin-top:5%;
+			}
+	}	
+}
